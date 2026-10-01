@@ -1,5 +1,4 @@
-# Causal-Time-Series-Lead-Lag
-Does daily lead-lag structure in liquid ETFs survive out of sample? No — and the failure is the finding.
+# Does daily lead-lag structure in liquid ETFs survive out of sample?
 
 Sparse causal structure did not beat a univariate AR baseline. On vol-standardised returns, median OOS R² was −1.11% for CAUSAL, −0.71% for AR, and −4.82% for the dense VAR. The Diebold–Mariano test confirms CAUSAL is significantly less accurate than AR (stat −3.37, p = 0.001), and 0/14 assets produced a positive R². Conditioning on selected parents removed more signal than noise at the daily horizon.
 
